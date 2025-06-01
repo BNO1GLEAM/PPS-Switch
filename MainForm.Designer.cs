@@ -86,6 +86,7 @@ namespace PPS
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PPS鼠标加速开关";
+            Load += MainForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
